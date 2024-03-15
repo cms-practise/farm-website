@@ -1,0 +1,363 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* FONTS */
+
+h1 {
+    font-size: 56px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+strong {
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+
+.smalltext {
+    font-size: 14px;
+}
+
+.inline-link {
+    text-decoration: none;
+    color: black;
+}
+
+.inline-link:hover {
+    color: #545c3a;
+    font-weight: bold;
+}
+
+/* HEADER */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+
+#logo-text {
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
+}
+
+#logo-text:hover {
+    color: #545c3a;
+}
+
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #545c3a;
+    font-weight: bold;
+}
+
+/* HERO SECTION */ 
+
+#hero {
+    padding: 20px;
+    background-color: #f2efe9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+}
+
+#hero-text {
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#hero h1 {
+    width: 400px;
+}
+
+.button-link {
+    background-color: #545c3a;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 200px;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #025f64;
+}
+
+#hero-image {
+    display: block;
+    width: 670px;
+    height: 480px;
+    background-image: url("images/hero-image.jpg");
+    background-size: cover;
+}
+
+/* ACTIVITIES SECTION */
+
+#activities-section {
+    text-align: center;
+    height: 700px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#activities-heading {
+    font-family: 'Playfair Display', serif;
+}
+
+#activities-caption {
+    width: 800px;
+    margin: auto;
+}
+
+#activities-gallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.card {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.act-image {
+    display: block;
+    background-color: gray;
+    width: 370px;
+    height: 370px;
+}
+
+#petting-zoo-image {
+    background-image: url("images/sheep.jpg");
+    background-size: cover;
+}
+
+#play-park-image {
+    background-image: url("images/children.jpg");
+    background-size: cover;
+}
+
+#walks-image {
+    background-image: url("images/apple-tree.jpg");
+    background-size: cover;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    color: #545c3a;
+    font-weight: bold;
+}
+
+/* NEWSLETTER SECTION */
+
+#newsletter-section {
+    background-color: #f2efe9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 40px;
+    height: 700px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    width: 360px;
+    height: 64px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #545c3a;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width: 360px;
+    height: 64px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#submit:hover {
+    background-color: #025f64;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    display: flex;
+    padding: 40px
+}
+
+#footer-text {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 60px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color: #545c3a;
+    font-weight: bold;
+}
+
+footer a:visited {
+    text-decoration: none;
+}
+
+/* ACTIVITIES PAGE */
+
+.segment {
+    padding: 20px;
+    background-color: #f2efe9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 700px;
+}
+
+.segment-text {
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.segment h1 {
+    width: 400px;
+}
+
+.segment-image {
+    display: block;
+    width: 480px;
+    height: 360px;
+}
+
+#template-image {
+    background-color: white;
+}
+
+#zoo-image {
+    background-image: url("images/baby-goat.jpg");
+    background-size: cover;
+}
+
+#playpark-image {
+    background-image: url("images/slide.jpg");
+    background-size: cover;
+}
+
+#walking-image {
+    background-image: url("images/couple-walking.jpg");
+    background-size: cover;
+}
+
+#shop-image {
+    background-image: url("images/shop.jpg");
+    background-size: cover;
+}
+
+#cafe-image {
+    background-image: url("images/coffee.jpg");
+    background-size: cover;
+    width: 360px;
+    height: 375px;
+}
+
+.segment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#playpark {
+    background-color: white;
+}
+
+/* CONTACT PAGE */
+
+#contact-page {
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+}
+
+#contact-blocks {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.block {
+    background-color: white;
+    padding: 20px 20px 20px 40px;
+    width: 570px;
+    height: 420px;
+}
+
+iframe {
+    width: 1170px;
+    height: 527px;
+    margin: 40px;
+}
